@@ -1,6 +1,6 @@
 <?php
 
-$dbh = new PDO('mysql:host=localhost;dbname=honor', 'honor', '1qazxsw2');
+$dbh = new PDO('mysql:host=localhost;dbname=honor', 'dbuser', 'dbpasswd');
 
 for ($id = 7050; $id < 7200; $id ++) {
     $sql = "SELECT * FROM `titletb` WHERE `tid` = :id";
