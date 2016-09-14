@@ -1,8 +1,8 @@
 {
 	"HOST_NAME": "",
 	"DEV_MODE": true,
-	"DB_DRIVER": "pdo_mysql",
-    "DB_HOST": "localhost",
+        "DB_DRIVER": "pdo_mysql",
+        "DB_HOST": "localhost",
 	"DB_NAME": "",
 	"DB_USER": "",
 	"DB_PASSWORD": "",
