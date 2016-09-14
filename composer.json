@@ -1,0 +1,13 @@
+{
+    "require": {
+        "doctrine/orm": "*",
+        "league/plates": "*",
+		"slim/slim": "*"
+    },
+	"autoload": {
+        "psr-4": {
+			"app\\": "app/",
+			"entity\\": "entity/"
+		}
+    }
+}

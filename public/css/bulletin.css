@@ -1,0 +1,14 @@
+.form-group {
+	padding: 5px;
+}
+.inline-form {
+	display: inline-block;
+}
+.input-url, .input-file {
+	display: block;
+	box-sizing: border-box;
+}
+.input-url {
+	width: 100%;
+	margin: 5px 0 5px 0 !important;
+}

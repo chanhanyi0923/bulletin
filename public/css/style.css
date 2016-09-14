@@ -1,0 +1,123 @@
+body {
+	font-family: "Helvetica Neue", Helvetica,Arial, "STHeiti", "Microsoft JhengHei", "PMingLiU", sans-serif;
+}
+hr {
+	border:0;
+	height:1px;
+	background-color:#d4d4d4;
+	color:#d4d4d4;
+}
+a {
+	color:dodgerblue;
+	text-decoration:none;
+}
+a:hover {
+	color:brown;
+}
+.red-text { color:red; }
+.red-text:hover { color:brown; }
+
+.container {
+	max-width:1200px;
+    width: 90%;
+	margin:5px;
+	margin-left:auto;
+	margin-right:auto;
+}
+@media screen and (max-width: 992px) {
+    .container {
+        width: 98%;
+    }
+}
+#top {
+	height:45px;
+}
+.box > div {
+	float:left;
+}
+.box:after {
+	clear:both;
+	display:table;
+	content:" ";
+}
+#top > #logo {
+	float:left;
+}
+#top > #top_link {
+	float:right;
+	height:100%;
+	text-align:right;
+}
+#top > #top_link:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	height:100%;
+}
+#top > #top_link > a,
+#footer a {
+	margin-left:5px;
+	margin-right:5px;
+}
+#footer > div {
+	padding:5px;
+}
+
+.card {
+	border:1px solid lightgrey;
+	margin:5px;
+}
+.card > .card-heading {
+	font-size:large;
+	color:black;
+	background-color:lightgrey;
+	padding:4px;
+	text-align:center;
+}
+
+#footer {
+	text-align:center;
+}
+#footer > div {
+	padding-top:30px;
+	padding-bottom:30px;
+	background-color:gray;
+}
+#footer a, #footer {
+	color:white;
+}
+#footer a:hover {
+	color:black;
+}
+.ann_list > tbody > tr > td {
+	border-bottom:1px dashed gray;
+	padding-bottom:5px;
+}
+.ann_list > thead > tr > td {
+	text-align:center;
+	font-size:large;
+}
+.link-block {
+	font-size:small;
+	display:block;
+	color:black;
+}
+.link-block:hover {
+	background-color:gray;
+	color:white;
+}
+.link-block > div {
+	float:left;
+}
+.school-link {
+	float:left;
+}
+.school-link > .card > .card-body:hover {
+	background-color:gray;
+}
+#school > .card-body > div > a > div {
+    overflow:hidden;
+}
+#right > .card > .card-body > ul {
+    padding-left: 30px;
+}

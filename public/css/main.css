@@ -1,0 +1,80 @@
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+/* navbar */
+#test_version {
+    background-color: #0275d8;
+    padding: 12px;
+}
+#top_list {
+    background-color: #2a2730;
+}
+#logo {
+    background-color: azure;
+}
+#top_list > .container > a,
+#test_version > .container,
+#test_version > .container > a {
+    color: white;
+}
+/* navbar */
+/* footer */
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    color: #99979c;
+    text-align: center;
+    background-color: #2a2730;
+}
+.footer > .container > p > a {
+    color : white;
+}
+/* footer */
+/* a color */
+.carousel-caption > h3 > a {
+    color: white;
+}
+/* a color */
+/* li */
+.main_list > ul > li,
+.main_list > ul > .row > li {
+    list-style: none;
+}
+.main_list > ul > li > p,
+.main_list > ul > .row > li > p {
+    border-left: solid 5px #00528e;
+    padding-left: 12px;
+}
+.main_list > h4 {
+    background-color: #00528e;
+    color: white;
+    padding: 5px;
+}
+.main_list > ul {
+    margin-left: -40px;
+}
+/* li */
+.news_list > ul > li,
+.news_list > ul > .row > li {
+    border-bottom: dashed 1px gray;
+    margin-top: 12px;
+}
+/* a hover */
+a:hover,
+.footer > .container > p > a:hover,
+.carousel-caption > h3 > a:hover,
+#top_list > .container > a:hover,
+#test_version > .container > a:hover {
+    text-decoration: none;
+    color: #00800a;
+}
+.news_list_text {
+    color:#000000;
+}
+a.news_list_text:focus,
+a.news_list_text:hover {
+    color:gray;
+}

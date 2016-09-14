@@ -1,0 +1,103 @@
+.btn {
+	font-size:18px;
+	text-decoration:none;
+	display:inline-block;
+	padding:6px 12px;
+	margin:5px;
+	background-color:ghostwhite;
+	border: 1px solid gray;
+	color:black;
+    border-radius: 8px;
+}
+.btn:hover {
+	background-color:LightBlue;
+	color:black;
+}
+.btn:active {
+	background-color:SlateBlue;
+	color:white;
+}
+.btn-active, .btn-active:hover, .btn-active:active {
+	background-color:SpringGreen;
+}
+.btn-disable:hover, .btn-disable:active {
+	background-color:ghostwhite;
+	color:black;
+}
+.select {
+    width: 120px;
+	padding:6px 12px;
+	margin:5px;
+	text-align:center;
+	font-size:large;
+	white-space:nowrap;
+	position: relative;
+	display: inline-block;
+	background-color:ghostwhite;
+	border: 1px solid gray;
+    border-radius: 8px;
+}
+.select > ul {
+	left:-1px;
+	margin:0;
+	margin-top:7px;
+	padding:0;
+	display: none;
+	position:absolute;
+	z-index: 1;
+}
+.select > ul > li {
+	list-style: none;
+	margin:0;
+	padding:0;
+	background-color:ghostwhite;
+	white-space:nowrap;
+}
+.select > ul > li > a {
+	width: 120px;
+	border: 1px solid gray;
+	padding:6px 12px;
+	margin:0;
+	margin-top:-1px;
+	display:block;
+	text-decoration:none;
+	color:black;
+}
+.select > ul > li:last-child > a {
+    border-radius: 0 0 8px 8px;
+}
+.select:hover {
+    border-radius: 8px 8px 0 0;
+}
+.select:hover > ul {
+	display: block;
+}
+.select > ul > li > a:hover, .select:hover {
+	background-color:LightBlue;
+}
+.select > ul > li > a:active, .select:active {
+	background-color:SlateBlue;
+	color:white;
+}
+.form input {
+	padding:6px;
+	margin:5px;
+}
+.form input[type=text], .form input[type=password] {
+	border:1px solid gray;
+	font-size:large;
+    border-radius: 8px;
+}
+.form input[type=text]:focus, .form input[type=password]:focus {
+	border:1px solid blue;
+}
+.form select {
+	padding:6px;
+	margin:5px;
+	border:1px solid gray;
+	font-size:large;
+    border-radius: 8px;
+}
+.form select:focus {
+	border:1px solid blue;
+}
